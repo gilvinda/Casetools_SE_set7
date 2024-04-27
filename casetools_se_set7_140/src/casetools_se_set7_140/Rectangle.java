@@ -27,6 +27,14 @@ public class Rectangle {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+	
+	}
+	public double getArea() {
+		return width*height;
+	}
+	
+	public double getPerimeter() {
+		return 2* (width+height);
 	}
 
 }
